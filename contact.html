@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact us | Straight to the Point</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <link type="text/css" href="styles/grid12col-stylesheet.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/bef7ad5d00.js"></script>
+</head>
+  
+<body>  
+  <article class="contentwrapper">
+<!--Logo and Title-->
+    <header class="stpheader">
+      <img src="images/logo.jpg" alt="Logo">
+      <section>
+        <h1>STRAIGHT TO THE POINT ARCHERY</h1>
+        <h5>Non-profit Archery Education Center | Since 2005</h5>
+      </section>
+    </header>
+    <section class="primarynav group">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <section class="rightnav">
+        <ul>
+          <li><a href="">DONATE</a></li>
+          <li><a href="">VOLUNTEER</a></li>
+        </ul>
+      </section>
+    </section>
+    
+    <div class="contact group">
+<!--Location and map-->
+      <article class="col span_6_of_12">
+
+        <h3>Straight to the Point Archery</h3>
+        <ul>
+          <li><a href="https://www.google.com/maps/place/47%C2%B015'07.9%22N+122%C2%B028'53.6%22W/@47.2521976,-122.4837447,17z/data=!4m12!1m6!4m5!1m0!1m3!2m2!1d-122.481556!2d47.252194!3m4!1s0x0:0x0!8m2!3d47.252194!4d-122.481556?hl=en-US">528 Nock Point Ln, Tacoma, WA 98412</a></li>
+          <li><a href="tel:+1-235-555-1010">(235) 555-1010</a></li>
+        </ul>
+        <div id="map"></div>
+        
+        <script>
+          function initMap() {
+            var uluru = {lat: 47.252194, lng: -122.481556 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 16,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQg5HNx9g0NXa-yxHhAszkIZgq7IJvmgw&callback=initMap">
+        </script>
+
+      </article>
+    
+<!--Contact form, UI only, not fully functional-->
+
+      <form class="col span_6_of_12">
+        <h2>Contact us</h2>
+        Your email<br>
+        <input type="email" placeholder="  yourname@email.com" name="email" required><br><br>
+        Message<br>
+        <input type="text" name="message" placeholder="  Ask a question or send us feedback" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <footer>
+      <!--Using flex to display 4 sections horizontally here-->
+      <div>
+        <section class="footunit">
+          <h4> LEARN </h4>
+          <ul>
+            <li><a href="services.html">Group Classes </a> </li>
+            <li><a href="services.html">Private Lessons</a></li>
+            <li><a href="about.html">Instructors</a></li>
+            <li><a href="about.html">Our Policy</a></li>
+          </ul>
+        </section>
+        <section class="footunit">
+          <h4> VISIT </h4>
+          <p><i class="fa fa-home fa=fw"></i> 528 Nock Point Ln Tacoma, WA 98412</p>
+          <p><i class="fa fa-envelope fa=fw"></i> rr@abc.com</p>
+          <p><i class="fa fa-phone fa=fw"></i> (235) 555 - 1010</p>
+          <section class="socialmedia">
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+            <a href=""><i class="fa fa-linkedin-square"></i></a>
+            <a href=""><i class="fa fa-twitter-square"></i></a>
+          </section>
+        </section>
+        <section class="footunit">
+          <h4> JOIN </h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Donate</a></li>
+            <li><a href="">Volunteer</a></li>
+          </ul>
+        </section>
+        <section class="footunit2">
+          <h4> AFFILIATES </h4>
+          <a href=""><img src="images/logo_aff1.png" alt="NFA" title="NFA"></a>
+          <a href=""><img src="images/logo_aff2.png" alt="WSA" title="WSA"></a>
+          <a href=""><img src="images/logo_aff3.png" alt="USA Archery" title="USA Archery"></a>
+          <a href=""><img src="images/logo_aff4.png" alt="Washington State Bowhunters" title="Washington State Bowhunters"> </a>
+        </section>
+      </div>
+      <!--Copyright text here-->
+      <section class="copyright">
+        <p>Copyright &copy; 2017 Straight to the Point Archery</p>
+      </section>
+    </footer>
+    
+  </article>
+</body>
+</html>

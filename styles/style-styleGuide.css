@@ -1,0 +1,67 @@
+/*general display styling for guide*/
+
+.contentwrapper {
+  /* Center on page, set width */
+  background-color:white;
+  margin-left: 12.5vmax;
+  width:75vmax; 
+  min-width:100vmin; 
+  height:100vmin;
+}
+
+
+section {
+    width:90%;
+    margin: 1rem 0 0 1rem ;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:lightgrey;
+    border-width:1px;
+  
+}
+
+.infowrapper {
+    margin-left:2rem;
+    padding:1rem;
+}
+
+
+
+/*styling for web pages*/
+
+h1, h2, h5 {
+    font-family: "open sans";
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;    
+}
+
+a, p {    
+font-size: 14px;
+font-family: "roboto";
+}
+
+
+.hilite {
+    font-weight: bold;
+    
+}
+
+img {
+    width: 320px;
+    height: 214px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
