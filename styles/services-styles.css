@@ -1,0 +1,151 @@
+body {
+    min-width:480px;
+}
+
+.class-info {
+  /*  padding-top:1em;*/
+    margin-top: 1em;
+    font-size:14px;
+}
+
+.class-info h5 {
+    font-size:20px;
+    color:black;
+}
+
+.section-services a {
+    text-decoration: none;
+}
+
+.hilite {
+    font-style:italic;
+    font-weight:bold;
+    margin-right: 1rem;
+}
+
+.hilite a:link, a:visited {
+  /*  text-decoration:none;*/
+    text-decoration:underline;
+    color:black;
+}
+
+.hilite a:hover {
+    text-decoration: none;
+    color: #94c840;
+}
+
+.info_header {
+    font-size:14px;
+}
+
+.info_header a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+
+/*link-button styling starts*/
+a.button-services {
+    display: inline-block;
+    border-radius: 4px;
+/*    background-color: #f4511e;*/
+    background-color: #94c840;
+   /* border: none;*/
+    border: 1px solid #48631d;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 5px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0;
+    
+}
+
+
+a.button-services span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a.button-services span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+a.button-services:hover span {
+    padding-right: 25px;
+    letter-spacing: 0;
+}
+
+a.button-services:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*button styling ends*/
+
+.page_links {
+    margin: 1%;
+      border-bottom: solid 1px lightgray;
+}
+
+/*footer mods*/
+
+.footer-services {
+  background-color: #c9c9c9;
+
+}
+
+
+.footer-services h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-services ul {
+  list-style-type: none;
+}
+
+.footer-services p {
+  padding: 0.20em;
+  margin: 0;
+}
+
+.footer-services ul li {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-services ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-services ul li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+
+.socialmedia {
+  padding: 0 .20em;
+}
+
+.socialmedia i {
+  padding-right: .5em;
+}
+
+
+.copyright {
+  text-align: center;
+}
+

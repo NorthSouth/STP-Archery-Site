@@ -1,0 +1,321 @@
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span_12_of_12 {
+	width: 100%;
+}
+
+.span_11_of_12 {
+	width: 91.53%;
+}
+
+.span_10_of_12 {
+	width: 83.06%;
+}
+
+.span_9_of_12 {
+	width: 74.6%;
+}
+
+.span_8_of_12 {
+	width: 66.13%;
+}
+
+.span_7_of_12 {
+	width: 57.66%; 
+}
+
+.span_6_of_12 {
+/*	width: 49.2%;*/ 
+	width: 48.2%; 
+}
+
+.span_5_of_12 {
+	width: 40.73%; 
+}
+
+.span_4_of_12 {
+	width: 32.26%; 
+}
+
+.span_3_of_12 {
+	width: 23.8%;
+}
+
+.span_2_of_12 {
+	width: 15.33%; 
+}
+
+.span_1_of_12 {
+	width: 6.86%; 
+}
+
+/*modifications to the spans */
+
+/* mod to left column (CLASSES) span*/
+.span_6m_of_12 {
+	width: 48.2%; 
+    border-right: solid 1px lightgray;
+}
+
+/* mods to the second column (LESSIONS) span */
+.span_1s_of_12 {
+/*	width: 49.2%;*/ 
+	width: 6.86%; 
+}
+
+.span_6s_of_12 {
+/*	width: 49.2%;*/ 
+	width: 48.2%; 
+}
+
+.span_10s_of_12 {
+/*	width: 49.2%;*/ 
+	width: 83.06%; 
+}
+
+/* mods for link-related spans */
+.span_1l_of_12 {
+	width: 6.86%;
+    text-align:center;
+}
+
+.span_2l_of_12 {
+	width: 15.33%;
+    text-align:center;
+}
+
+.span_3l_of_12 {
+	width: 23.8%;
+    text-align:center;
+}
+
+/*footer mods*/
+
+.span_2f_of_12 {
+	width: 15.33%;
+    /*margin:.75%;*/
+    /*padding-left:.75%;*/    
+    padding: 1% 1% .5% 1%;
+     border-right: solid 1px black;
+    /*text-align:center;*/
+}
+
+.span_3f_of_12 {
+	width: 23.8%;
+    padding: 1% 1% .5% 1%;
+   /* margin-right: .75%;*/
+   /* padding-left:.75%;*/
+     border-right: solid 1px black;
+    /*text-align:center;*/
+}
+
+.span_5f_of_12 {
+	width: 40.73%;
+    padding: 1% 1% .5% 1%;
+  /*  margin-right: .75%;*/
+   /* padding-left:.75%;*/
+/*     border-right: solid 1px black;*/
+    /*text-align:center;*/
+}
+
+.span_1fa_of_12 {
+     width: 6.86%; 
+}
+
+.span_2fa_of_12 {
+    width: 15.33%; 
+}
+    
+.span_3fa_of_12 {
+    width: 23.8%; 
+}
+    	
+
+/*footer mods end*/
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_12_of_12 {
+		width: 100%; 
+	}
+	.span_11_of_12 {
+		width: 100%; 
+	}
+	.span_10_of_12 {
+		width: 100%; 
+	}
+	.span_9_of_12 {
+		width: 100%; 
+	}
+	.span_8_of_12 {
+		width: 100%; 
+	}
+	.span_7_of_12 {
+		width: 100%; 
+	}
+	.span_6_of_12 {
+		width: 100%; 
+	}
+	.span_5_of_12 {
+		width: 100%; 
+	}
+	.span_4_of_12 {
+		width: 100%; 
+	}
+	.span_3_of_12 {
+		width: 100%; 
+	}
+	.span_2_of_12 {
+		width: 100%; 
+	}
+	.span_1_of_12 {
+		width: 100%; 
+	}
+	.span_6m_of_12 {
+		width: 100%; 
+        border-right: none;
+        border-bottom: solid 1px lightgray;
+	}
+	.span_1s_of_12 {
+		width: 100%; 
+	}
+    .span_6s_of_12 {
+		width: 100%; 
+	}    
+	.span_10s_of_12 {
+		width: 100%; 
+	}
+    .span_2f_of_12 {
+		width: 100%; 
+	}
+    .span_3f_of_12 {
+		width: 100%; 
+	}
+    .span_5f_of_12 {
+		width: 100%; 
+	}
+    .footer-services img {
+        width:50%;
+    }
+}
+
+/*@media only screen and (max-width: 480px) {	
+	.span_6s_of_12 {
+		width: 100%; 
+	}
+	.span_6m_of_12 {
+		width: 100%; 
+        border-right: none;
+        border-bottom: solid 1px lightgray;
+	}
+}*/
+
+/*@media only screen and (max-width: 640px){		
+    .span_5f_of_12 {
+        width:23.8%;
+        text-align:center;
+    }
+	.span_1fa_of_12 {
+		width: 100%; 
+	}
+	.span_2fa_of_12 {
+		width: 100%; 
+	}
+	.span_3fa_of_12 {
+		width: 100%; 
+	}
+}*/
+
+@media only screen and (max-width:640px) { 
+	.span_2f_of_12 {
+		width: 100%; 
+	}
+    .span_5f_of_12 {
+        width:100%;
+        text-align:center;
+    }
+	.span_1fa_of_12 {
+		width: 100%; 
+	}
+	.span_2fa_of_12 {
+		width: 100%; 
+	}
+	.span_3fa_of_12 {
+		width: 100%; 
+	}
+    .footer-services img {
+        width:80%;
+    }
+}
+    
+@media only screen and (max-width: 800px) and (min-width:641px) {	
+    .span_5f_of_12 {
+        width:80%;
+        text-align:center;
+    }
+	.span_1fa_of_12 {
+		width: 10%; 
+	}
+	.span_2fa_of_12 {
+		width: 35%; 
+	}
+	.span_3fa_of_12 {
+		width: 50%; 
+	}
+    .footer-services img {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 1152px) and (min-width:801px) {	
+    .span_5f_of_12 {
+        width:60%;
+        text-align:center;
+    }
+	.span_1fa_of_12 {
+		width: 5%; 
+	}
+	.span_2fa_of_12 {
+		width: 45%; 
+	}
+	.span_3fa_of_12 {
+		width: 45%; 
+	}
+}
+
+@media only screen and (max-width: 1400px) and (min-width:1152px) {	
+	.span_1fa_of_12 {
+		width: 10%; 
+	}
+	.span_2fa_of_12 {
+		width: 10%; 
+	}
+	.span_3fa_of_12 {
+		width: 9%; 
+	}
+}
+
+/*known working*/
+
+
+@media only screen and (max-width: 800px) {	
+	.span_6s_of_12 {
+		width: 100%; 
+	}
+/*    at this screen width, the two columns are stacked vertically, so adjust the border so that it appears at the bottom of the CLASSES section, providing a natural separator line between the two */
+	.span_6m_of_12 {
+		width: 100%; 
+        border-right: none;
+        border-bottom: solid 1px lightgray;
+	}
+}
+
+@media only screen and (max-width: 1024px) {	
+	.span_1s_of_12 {
+		width: 100%; 
+	}
+	.span_10s_of_12 {
+		width: 100%; 
+	}
+}
