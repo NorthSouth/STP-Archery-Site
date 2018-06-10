@@ -1,0 +1,51 @@
+/*footer mods*/
+
+.footer-services {
+  background-color: #c9c9c9;
+
+}
+
+
+.footer-services h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-services ul {
+  list-style-type: none;
+}
+
+.footer-services p {
+  padding: 0.20em;
+  margin: 0;
+}
+
+.footer-services ul li {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-services ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-services ul li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+
+.socialmedia {
+  padding: 0 .20em;
+}
+
+.socialmedia i {
+  padding-right: .5em;
+}
+
+
+.copyright {
+  text-align: center;
+}
+

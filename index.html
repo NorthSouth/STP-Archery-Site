@@ -7,13 +7,20 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  
+  
+  <link rel="stylesheet" type="text/css" href="styles/services-styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/services-col.css" media="all">
+  <link rel="stylesheet" type="text/css" href="styles/services-12cols.css" media="all">
+  <link rel="stylesheet" type="text/css" href="styles/footer-styles.css">
+  
   <script src="https://use.fontawesome.com/bef7ad5d00.js"></script>
 </head>
 <body>
   <article class="contentwrapper">
     <!--Logo and Title-->
     <header class="stpheader">
-      <img src="images/logo.png" alt="Logo">
+      <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
       <section>
         <h1>STRAIGHT TO THE POINT ARCHERY</h1>
         <h5>Non-profit Archery Education Center | Since 2005</h5>
@@ -41,33 +48,46 @@
         <img src="images/class1_edit.jpg" alt="Class of students" class="centerimg">
       </section>
       <!--three sections here-->
-      <section class="multiarticle">
+      <section class="multiarticle ">
         <section class="modules">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/93HhhTGf1Vo" allowfullscreen></iframe>
-          <h3>CLASSES & TRAINING</h3>
-          <p> Quisque accumsan vestibulum nibh quis venenatis. Vestibulum luctus condimentum ligula, in ornare lorem scelerisque sit amet. Vivamus dictum ante est, non ullamcorper dui porta at. </p>
-          <a href="services.html" target="_parent">Schedule & Registration <i class="fa fa-angle-right fa=fw"></i></a>
+          <div class="module-content">
+            <iframe src="https://www.youtube.com/embed/93HhhTGf1Vo" allowfullscreen></iframe>
+            <h3>CLASSES & TRAINING</h3>
+            <p> Quisque accumsan vestibulum nibh quis venenatis. Vestibulum luctus condimentum ligula, in ornare lorem scelerisque sit amet. Vivamus dictum ante est, non ullamcorper dui porta at. </p>
+            <div class="link-container">
+              <a href="services.html" target="_parent">Schedule & Registration <i class="fa fa-angle-right fa=fw"></i></a>
+            </div>
+        </div>
         </section>
         <section class="modules">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/F4CZ96KObQs" allowfullscreen></iframe>
-          <h3>ARCHERY RANGE</h3>
-          <p>Maecenas vel urna at nibh congue hendrerit vitae ut justo. Aenean dapibus ipsum ut arcu semper ultricies. Suspendisse potenti. Aenean commodo, imperdiet posuere diam magna quis mauris. </p>
-          <a href="" target="_parent">Read More <i class="fa fa-angle-right fa=fw"></i></a>
-
+           <div class="module-content">
+            <iframe src="https://www.youtube.com/embed/F4CZ96KObQs" allowfullscreen></iframe>
+            <h3>ARCHERY RANGE</h3>
+            <p>Maecenas vel urna at nibh congue hendrerit vitae ut justo. Aenean dapibus ipsum ut arcu semper ultricies. Suspendisse potenti. Aenean commodo, imperdiet posuere diam magna quis mauris. </p>
+            <div class="link-container">
+              <a href="" target="_parent">Read More <i class="fa fa-angle-right fa=fw"></i></a>
+          </div>
+          </div>
         </section>
         <section class="modules">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/fV_m_Fci1AA" allowfullscreen></iframe>
-          <h3>EVENTS & OUTREACH PROGRAM</h3>
-          <p>Aliquam suscipit mattis tellus, quis suscipit libero interdum non. Integer ullamcorper, orci ac malesuada facilisis, nibh lectus lacinia tellus, sit amet luctus est tellus non eros. </p>
-          <a href="" target="_parent">Register Now <i class="fa fa-angle-right fa=fw"></i></a>
+           <div class="module-content">
+            <iframe  src="https://www.youtube.com/embed/fV_m_Fci1AA" allowfullscreen></iframe>
+            <h3>EVENTS & OUTREACH PROGRAM</h3>
+            <p>Aliquam suscipit mattis tellus, quis suscipit libero interdum non. Integer ullamcorper, orci ac malesuada facilisis, nibh lectus lacinia tellus, sit amet luctus est tellus non eros. </p>
+            <div class="link-container">
+              <a href="" target="_parent">Register Now <i class="fa fa-angle-right fa=fw "></i></a>
+            </div>
+          </div>
         </section>
       </section>
     </article>
+    
     <!--footer here-->
-    <footer>
+    
+   <footer class="footer-services">
       <!--Using flex to display 4 sections horizontally here-->
       <div>
-        <section class="footunit">
+        <div class="col-services_f span_2f_of_12">
           <h4> LEARN </h4>
           <ul>
             <li><a href="services.html">Group Classes </a> </li>
@@ -75,10 +95,11 @@
             <li><a href="about.html">Instructors</a></li>
             <li><a href="about.html">Our Policy</a></li>
           </ul>
-        </section>
-        <section class="footunit">
+      
+          </div>   
+        <div class="col-services_f span_3f_of_12">
           <h4> VISIT </h4>
-          <p><i class="fa fa-home fa=fw"></i> 528 Nock Point Ln Tacoma, WA 98412</p>
+          <p><i class="fa fa-home fa=fw"></i> 528 Nock Point Ln Tacoma,WA 98412</p>
           <p><i class="fa fa-envelope fa=fw"></i> rr@abc.com</p>
           <p><i class="fa fa-phone fa=fw"></i> (235) 555 - 1010</p>
           <section class="socialmedia">
@@ -86,22 +107,39 @@
             <a href=""><i class="fa fa-linkedin-square"></i></a>
             <a href=""><i class="fa fa-twitter-square"></i></a>
           </section>
-        </section>
-        <section class="footunit">
+        </div>
+        <div class="col-services_f span_2f_of_12">
           <h4> JOIN </h4>
           <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="">Donate</a></li>
             <li><a href="">Volunteer</a></li>
           </ul>
-        </section>
-        <section class="footunit2">
+        </div>
+        <div class="col-services_f span_5f_of_12">
           <h4> AFFILIATES </h4>
-          <a href=""><img src="images/logo_aff1.png" alt="NFA" title="NFA"></a>
-          <a href=""><img src="images/logo_aff2.png" alt="WSA" title="WSA"></a>
-          <a href=""><img src="images/logo_aff3.png" alt="USA Archery" title="USA Archery"></a>
-          <a href=""><img src="images/logo_aff4.png" alt="Washington State Bowhunters" title="Washington State Bowhunters"> </a>
-        </section>
+             <div class="col-services_f span_2fa_of_12">
+                <a href=""><img src="images/logo_aff1.png" alt="NFA" title="NFA"></a>
+            </div> 
+            <div class="col-services_f span_1fa_of_12">
+                &nbsp;
+            </div>
+            <div class="col-services_f span_2fa_of_12">
+                <a href=""><img src="images/logo_aff2.png" alt="WSA" title="WSA"></a>
+            </div>
+            <div class="col-services_f span_1fa_of_12">
+                &nbsp;
+            </div>
+            <div class="col-services_f span_2fa_of_12">
+                <a href=""><img src="images/logo_aff3.png" alt="USA Archery" title="USA Archery"></a>
+            </div>
+            <div class="col-services_f span_1fa_of_12">
+                &nbsp;
+            </div>
+            <div class="col-services_f span_3fa_of_12">
+                <a href=""><img src="images/logo_aff4.png" alt="Washington State Bowhunters" title="Washington State Bowhunters"> </a>
+            </div>
+        </div>
       </div>
       <!--Copyright text here-->
       <section class="copyright">
