@@ -44,6 +44,10 @@ body {
     text-decoration: none;
 }
 
+.info_header a:hover {
+    text-decoration: underline;
+}
+
 /*add in default linking behavior*/
 
 a {
