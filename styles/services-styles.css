@@ -47,6 +47,7 @@ body {
 /*add in default linking behavior*/
 
 a {
+  color: blue;
   text-decoration: none;
 }
 
