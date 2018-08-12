@@ -56,10 +56,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 /*link-button styling starts*/
 a.button-services {
     display: inline-block;
