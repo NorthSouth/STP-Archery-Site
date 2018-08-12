@@ -44,6 +44,15 @@ body {
     text-decoration: none;
 }
 
+/*add in default linking behavior*/
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 /*link-button styling starts*/
 a.button-services {
