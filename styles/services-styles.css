@@ -39,7 +39,7 @@ body {
     font-size:14px;
 }
 
-.info_header a:link, a:visited {
+.info_header a:visited {
     color: blue;
     text-decoration: none;
 }
